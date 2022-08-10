@@ -11,7 +11,6 @@ const Arreglos = () => {
            <div className="arreglos-container">
              <Link to ={`/arreglos/${item.id}`}>
              <h1>{item.name}</h1>
-      <h3>{item.description}</h3>
       <div className ='imageArreglos'>
         <img className ='imageArreglos' src={item.picture} alt ={item.name}/>
       </div>
