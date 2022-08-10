@@ -10,13 +10,13 @@ const Arreglo = () => {
     const {name, description , picture , price }= single
   return (
     <div className ='arregloContainer'>
-    
-      <h1>{name}</h1>{name}
-      <h3>{description}</h3>
-      <div className ='imageArregloContainer'>
+    <h1>{name}</h1>{name}
+    <h3>{description}</h3>
+    <div className ='imageArregloContainer'>
         <img className ='imageArreg' src={picture} alt ={name}/>
-      </div>
-        <span>{price}</span>
+    </div>
+        <span className ='item-price'>${price}</span>
+        <button>comprar</button>
     </div>
   );
 }
