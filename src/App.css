@@ -28,12 +28,15 @@
 .arreglos-container{
 width: 50%;
 border: 1px solid ;
-margin: 10px;
+margin: 5px;
+border-radius: 10px 20px;
+padding: 10px;
+
 }
  a{
 text-decoration: none;
 color: black;
-margin: 5px;
+
 
 }
 
