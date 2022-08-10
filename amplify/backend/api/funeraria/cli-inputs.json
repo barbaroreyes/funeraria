@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "funeraria",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "/Users/barbaroreyes/examples/Allpro/funeraria/amplify/backend/api/funeraria/schema.graphql",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 7
+    }
+  }
+}
