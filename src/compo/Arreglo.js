@@ -7,7 +7,7 @@ const Arreglo = () => {
     const {arreglos} = useContext(ArregloContext);
     
     const single = arreglos.find(item => item.id === id);
-    const {name, description , picture }= single
+    const {name, description , picture , price }= single
   return (
     <div className ='arregloContainer'>
     
@@ -16,7 +16,7 @@ const Arreglo = () => {
       <div className ='imageArregloContainer'>
         <img className ='imageArreg' src={picture} alt ={name}/>
       </div>
-
+        <span>{price}</span>
     </div>
   );
 }
