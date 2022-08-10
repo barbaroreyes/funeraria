@@ -17,6 +17,8 @@
 }
 .imageArreglos{
   width: 100%;
+  border-radius: 10px;
+  
 }
 .container{
   display:flex;
@@ -24,6 +26,11 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+}.arregloContainer{
+  display:flex;
+  flex-direction: column;
+  justify-content:center ;
+  align-items:center
 }
 .arreglos-container{
 width: 50%;
@@ -33,7 +40,21 @@ border-radius: 10px 20px;
 padding: 10px;
 
 }
+.imageArregloContainer{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin : 10px;
+  
+  
+}
+.imageArreg{
+  width: 80%;
+  border-radius: 10px;
+
+}
  a{
+
 text-decoration: none;
 color: black;
 
